@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDemo", "Web\WebDemo\WebD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDemo", "Shared\LibraryDemo\LibraryDemo.csproj", "{03DD6B08-C9A0-481B-9690-10A080FCBD04}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodeJsAppDemo", "Web\NodeJsAppDemo\NodeJsAppDemo.njsproj", "{805FDC29-6464-4FC1-966F-2F401CA024F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{03DD6B08-C9A0-481B-9690-10A080FCBD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03DD6B08-C9A0-481B-9690-10A080FCBD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03DD6B08-C9A0-481B-9690-10A080FCBD04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805FDC29-6464-4FC1-966F-2F401CA024F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805FDC29-6464-4FC1-966F-2F401CA024F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805FDC29-6464-4FC1-966F-2F401CA024F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805FDC29-6464-4FC1-966F-2F401CA024F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,9 +38,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{13EB8D65-538B-4CE7-A05B-27CB20F508BB} = {A91267E8-71D8-42DD-8A01-29F7E90DC65F}
 		{03DD6B08-C9A0-481B-9690-10A080FCBD04} = {4F693E8B-CD89-4B25-85CA-256B87B02396}
+		{805FDC29-6464-4FC1-966F-2F401CA024F0} = {A91267E8-71D8-42DD-8A01-29F7E90DC65F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5868F325-A5F2-477B-9AEA-0D17E786CF36}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45
+		SolutionGuid = {5868F325-A5F2-477B-9AEA-0D17E786CF36}
 	EndGlobalSection
 EndGlobal
